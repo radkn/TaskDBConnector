@@ -1,0 +1,21 @@
+<object-stream>
+  <java.lang.Class>
+    <ServerURL>http://ppd.cifr.us</ServerURL>
+    <LineURL>/api/line/put</LineURL>
+    <ZoneURL>/api/zone/put</ZoneURL>
+    <HeatMapURL>/api/point/put</HeatMapURL>
+    <DB__URL>jdbc:mysql://localhost:3306/newvision</DB__URL>
+    <DB__USER>root</DB__USER>
+    <DB__PASSWORD>root</DB__PASSWORD>
+    <ReserveDB__URL>jdbc:mysql://localhost:3306/newvision_reserv</ReserveDB__URL>
+    <ReserveDB__USER>root</ReserveDB__USER>
+    <ReserveDB__PASSWORD>root</ReserveDB__PASSWORD>
+    <Hash>--Test data--</Hash>
+    <ReserveTransmitted>true</ReserveTransmitted>
+    <newReserveTable>true</newReserveTable>
+    <transmitted>false</transmitted>
+    <onePackOfStrings>2000</onePackOfStrings>
+    <checkTransmittedPeriod>10000</checkTransmittedPeriod>
+    <numberToSendReserve>5</numberToSendReserve>
+  </java.lang.Class>
+</object-stream>
